@@ -1,17 +1,19 @@
 :root {
   --primary-color: #ff9854;
-  --text-color:#3f4954;
+  --text-color: #3f4954;
   --text-sub-color: #999;
-  --line-color:#f8f9f9;
-  --background-color:#f1f3f5;
+  --line-color: #f8f9f9;
+  --background-color: #f1f3f5;
   --theme-linear-gradient: linear-gradient(180deg, #fcaf3f, #fca650);
   /* vant全局修改：search样式 */
-  --van-search-left-icon-color: var( --primary-color) !important;
+  --van-search-left-icon-color: var(--primary-color) !important;
+  --van-primary-color: var(--primary-color) !important;
+  --van-nav-bar-title-text-color: var(--primary-color) !important;
 }
 
 body {
   font-size: 14px;
-  font-family:"Source Han Sans'","Microsoft YaHei";
+  font-family: "Source Han Sans'", "Microsoft YaHei";
 }
 .bottom-gray-line {
   border-bottom: 1px solid var(--line-color);
